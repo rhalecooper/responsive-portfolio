@@ -280,6 +280,9 @@ input[type=submit] {
     margin-left: auto;
     margin-right: auto;
   }
+  #contact-form ul {
+    padding-left: 0px;
+  }
   input[type=text], input[type=email], textarea {
     margin-right: 10px;
     /* border: 2px solid red; */
