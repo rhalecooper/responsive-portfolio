@@ -100,7 +100,7 @@ nav a:first-child {
 #main-container {
   padding-top: 110px;
   min-height: calc(100vh - 70px);
-  border: 1px solid red;
+  /* border: 2px solid red; */
 }
 
 .main-section {
@@ -111,8 +111,7 @@ nav a:first-child {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
-  border: 1px solid blue;
-
+  /* border: 1px solid blue; */
 }
 
 .auth-image {
@@ -153,7 +152,7 @@ h3, h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
-  border: 1px solid green;
+  /* border: 4px solid green; */
 }
 
 .work:nth-child(even) {
@@ -164,7 +163,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .work h3 {
@@ -269,8 +268,9 @@ input[type=submit] {
   }
   .work {
     float: none;
+    clear: both;
+    width: 100%;
   }
-
   .work img {
     margin-left: auto;
     margin-right: auto;
