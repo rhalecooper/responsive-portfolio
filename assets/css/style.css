@@ -17,7 +17,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-  border: 1px solid pink
+  /* border: 1px solid pink */
 }
 
 h1, h2, h3, p {
@@ -56,7 +56,7 @@ h2, h3 {
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #logo {
@@ -71,19 +71,20 @@ h2, h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 nav {
   float: right;
   margin-top: 25px;
-  border: 1px solid blue;
+  margin-right: 1px;
+  /* border: 1px solid blue; */
 }
 
 nav a {
   display: inline-block;
   padding-left: 15px;
-  margin-left: 15px;
+  margin-right: 15px;
   line-height: 18px;
   color: #999;
   text-decoration: none;
@@ -92,6 +93,31 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
+}
+
+/* main */
+
+#main-container {
+  padding-top: 110px;
+  min-height: calc(100vh - 70px);
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
 /* footer */
@@ -113,23 +139,6 @@ h3, h2 {
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
-}
-
-/* main */
-
-#main-container {
-  padding-top: 130px;
-  min-height: calc(100vh - 70px);
-}
-
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
 }
 
 /* portfolio page */
@@ -164,14 +173,6 @@ h3, h2 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-}
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
 }
 
 /* contact page */
@@ -250,5 +251,14 @@ input[type=submit] {
   }
   #masthead {
     position: static;
+    margin: 0 0 1px;
+  }
+  #main-container {
+    padding-top: 10px;
+    min-height: none;
+  }
+  .auth-image {
+    float: none;
+    width: 100%;
   }
 }
